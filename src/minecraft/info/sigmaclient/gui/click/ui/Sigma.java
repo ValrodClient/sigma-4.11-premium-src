@@ -111,7 +111,7 @@ public class Sigma extends UI {
         if (panel.currentPanel == null) {
             RenderingUtil.drawRoundedRect(x - 99, y - 149, x + 99, y + 149, Colors.getColor(232, 220), Colors.getColor(232, 220));
             TTFFontRenderer font = Client.fm.getFont("SFR 14");
-            font.drawCenteredString("Sigma", x, y - 140, Colors.getColor(45));
+            font.drawCenteredString("Skidma", x, y - 140, Colors.getColor(45));
             for (CategoryButton button : panel.typeButton) {
                 button.draw(p0, p1);
             }
